@@ -1,0 +1,48 @@
+#list
+mylist=["Oct batch",2022,True,0.555,2022]
+mylist[1]=2021
+print(mylist)
+
+#Appending
+mylist.insert(3,"Python")
+print(mylist)
+
+#Tuple
+mytuple=("Dell",2022,565326.2,False,2022)
+print(mytuple)
+print(type(mytuple))
+
+mytuple=("Apple","Banana","Cherry")
+print(mytuple)
+
+#Dictionary
+mydict={
+        "Brand":"Dell",
+        "Colour":"White"
+        "Year of make",2022,
+        "Condition":True
+        }
+        print(mydict)
+        print(type(mydict))
+         
+print(mydict["Condition"])
+print(mydict["Brand"][1])
+
+#Set
+myset={1,2,2.2,3,4,3,'yesterday','today','tomorrow'}
+print(myset)
+print(type(myset))
+
+set1={"A","B"}
+set2={"C","D"}
+set3=set1.union(set2)
+
+#Function
+def data(name):
+print("The given data belongs to",name)
+data("Tom")
+  
+ def a():
+ x=input("Enter the name")
+ print("Hii",x)
+ a()
